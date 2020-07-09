@@ -94,14 +94,13 @@ GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
 
 ## Visualizations
-Generate a visualization of the data by:
 
 Importing the SQL database into Pandas (Python) by using SQLAlchemy. Consult SQLAlchemy documentation for more information. https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql
 
 Create a bar chart of average salary by title.
 
 #### Most common salary ranges for employees
-![](images/histogram.jpg)
+![](images/histogram.png)
 
 #### Average salary by title
-![](images/bar.jpg)
+![](images/bar.png)
