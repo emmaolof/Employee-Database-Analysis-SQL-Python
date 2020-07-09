@@ -1,4 +1,11 @@
-Mock employee database from the 1980s and 1990s.
+Conducted a research project on employees of a corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+
+I Designed the tables to hold data in the CSVs, import the CSVs into a PostgresSQL database, and answer questions about the data. In other words, perform the following:
+
+1. Data Modeling
+2. Data Engineering
+3. Data Analysis
+4. Visualization in Python ( Pandas and matplotlib.pyplot)
 
 ## Data Modeling
 
@@ -95,7 +102,7 @@ ORDER BY COUNT(last_name) DESC;
 
 ## Visualizations
 
-Importing the SQL database into Pandas (Python) by using SQLAlchemy. Consult SQLAlchemy documentation for more information. https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql
+Imported the SQL database into Pandas (Python) by using SQLAlchemy. Consult SQLAlchemy documentation for more information. https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql
 
 Create a bar chart of average salary by title.
 
