@@ -1,4 +1,4 @@
-Conducted a research project on employees of a corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+Led a Data Workflow project on employees of a corporation from the 1980s and 1990s using SQL and Python. The database of employees from that period are in six CSV files.
 
 I Designed the tables to hold data in the CSVs, import the CSVs into a PostgresSQL database, and answer questions about the data. In other words, perform the following:
 
