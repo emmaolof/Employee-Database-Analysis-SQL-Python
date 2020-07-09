@@ -102,7 +102,7 @@ ORDER BY COUNT(last_name) DESC;
 
 ## Visualizations
 
-Importing the SQL database into Pandas (Python) by using SQLAlchemy. Consult SQLAlchemy documentation for more information. https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql
+Imported the SQL database into Pandas (Python) by using SQLAlchemy. Consult SQLAlchemy documentation for more information. https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql
 
 Create a bar chart of average salary by title.
 
