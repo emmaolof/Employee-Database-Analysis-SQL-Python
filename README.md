@@ -111,3 +111,24 @@ Create a bar chart of average salary by title.
 
 #### Average salary by title
 ![](images/bar.png)
+
+### Observations
+
+## Data Modeling
+There are two primary keys of employee number and department number in the employees table and departments table respectively.
+Employee number is a foreign key in the titles, salaries, and department employee tables, which links them to the employees table.
+Department number is a foreign key in the department manager and department employee tables, which links them to the departments table.
+
+## Data Engineering
+There are 300,024 employees in the database for whom a salary record is present.
+There were 36,150 employees hired in 1986.
+Only 24 employees have been managers of one or more of the nine departments.
+There are 331,603 records for employee department assignments, as some employees worked in multiple departments during their tenure.
+Only 20 employees have a last name that begins with B and a first name of Hercules.
+A total of 52,245 employees have ever been assigned to the sales department.
+A total of 137,952 records are present for employees assigned to the sales and/or development departments.
+There are 1,638 unique employee last names, with all but one having over 140 occurrences.
+
+## Data Analysis
+The vast majority of employees have salaries between $40,000 and $50,000, with a significant decrease in frequency to the next highest range. The frequencies decrease slowly across the remaining salary ranges, with no salaries being greater than $130,000.
+Staff and Senior Staff have the highest average salaries, followed by Managers. Technique Leaders, Engineers, Senior Engineers, and Assistant Engineers all have approximately the same average salary, with the difference being no greater than $87.
